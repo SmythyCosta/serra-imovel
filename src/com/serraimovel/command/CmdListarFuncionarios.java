@@ -6,6 +6,7 @@ import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpSession;
 
+import com.serraimovel.bo.FuncionarioBO;
 import com.serraimovel.dto.PessoaFisica;
 import com.serraimovel.excecao.SerraImovelException;
 
