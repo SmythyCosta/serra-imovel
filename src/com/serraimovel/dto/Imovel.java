@@ -133,4 +133,5 @@ public class Imovel extends ObjetoDoDominio {
 	public void setIdProprietario(Long idProprietario) {
 		this.idProprietario = idProprietario;
 	}
+	
 }
