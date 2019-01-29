@@ -1,4 +1,4 @@
-package com.serraimovel.bo.command;
+package com.serraimovel.command;
 
 import java.io.IOException;
 
