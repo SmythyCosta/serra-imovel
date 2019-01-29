@@ -1,6 +1,5 @@
 package com.serraimovel.bo.domino;
 
-
 import java.util.HashMap;
 import java.util.Map;
 
