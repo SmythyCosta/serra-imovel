@@ -1,4 +1,4 @@
-package com.serraimovel.bo.excecao;
+package com.serraimovel.excecao;
 
 public class SerraImovelException extends Exception{
 
