@@ -1,0 +1,150 @@
+/* Início do estilo da tabela da displaytag */
+
+table {
+	width: 600px;
+	font-size: 14px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-bottom: 3px double #8080c0; 
+}
+
+table.catalogo {
+	width: 75%;
+}
+
+table.saidas {
+	width: 600px;
+}
+
+table.carrinho {
+	width: 95%;
+}
+
+table caption {
+	border: 3px double #8080c0;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #8080c0;
+	padding: 4px 8px 4px 8px;
+	margin-bottom: 8px;
+}
+
+table thead tr {
+	background-color: #8080c0;
+	font-family: sans-serif;
+	color: #ffffff;
+	text-align: center;
+}
+
+table thead tr a:link {
+	color: #ffffff;
+}
+
+table thead tr a:visited {
+	color: #ffffff;
+}
+
+table tbody tr {
+
+}
+
+table td.acao {
+	text-align: center;
+}
+table td.acao img {
+	width: 15px;
+	height: 15px;
+}
+table td.valor {
+	text-align: right;
+}
+
+table td.data {
+	text-align: center;
+}
+
+table td.numero {
+	text-align: center;
+}
+
+/* Estilo das linhas ímpares */
+table tr.odd {
+	background-color: #ffffff;
+}
+
+/* Estilo das linhas pares */
+table tr.even {
+	background-color: #e8e6e6;
+}
+
+/* Estilo da coluna que pode ser ordenada */
+table th.sortable {
+	
+}
+
+/* Estilo da coluna que está ordenada */
+table th.sorted {
+	
+}
+
+/* Estilo da coluna ordenada do maior para o menor */
+table th.order1 {
+	
+}
+
+/* Estilo da coluna ordenada do menor para o maior */
+table th.order2 {
+	
+}
+
+table a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+table a:visited {
+	color: #000000;
+}
+
+table a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+span.pagebanner {
+	margin-top: 10px;
+	padding: 4px 11px 4px 11px;
+	font-family: sans-serif;
+	font-size: 14px;	
+}
+
+span.pagelinks {
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 4px 11px 4px 11px;
+}
+
+span.pagelinks a:link {
+	color: #000000;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+span.pagelinks a:visited {
+	color: #000000;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+span.pagelinks a:hover {
+	color: #000000;
+	font-family: sans-serif;
+	text-decoration: underline;
+	font-size: 14px;
+}
+/* Fim do estilo da tabela da displaytag */

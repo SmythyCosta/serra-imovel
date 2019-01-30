@@ -1,0 +1,290 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	width: 1080px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+/* Estilo aplicado aos blocos da página */
+div#detalhe {
+	background-color: #b0c4de;
+	text-align: right;
+}
+
+div#detalhe p {
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding-right: 15px;
+	color: #ffffff;
+}
+
+div#cabecalho {
+	background-color: #4682b4;
+	padding-left: 15px;
+	height: 60px;
+}
+
+div#cabecalho h1 {
+	margin: 0px;
+	padding-top: 8px;
+	font-family: sans-serif;
+	color: #ffffff;
+}
+
+div#barraLateral {
+	background-color: #b0c4dE;
+	padding-left: 15px;
+	width: 200px;
+	position: static;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/* Estilo aplicado aos links */
+div#barraLateral a:link {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+div#barraLateral a:hover {
+	text-decoration: underline;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+div#barraLateral a:visited {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+/* rodape  */
+div#rodape {
+	text-align: center;
+	background-color: #4682b4;
+	padding: 4px;
+	position: static;
+	clear: both;
+	font-family: sans-serif;
+	font-size: small;
+}
+
+div#rodape a:link {
+	text-decoration: none;
+	color: #000000;
+	font-family: sans-serif;
+}
+
+div#rodape a:hover {
+	text-decoration: underline;
+	color: #000000;
+	font-family: sans-serif;
+}
+
+div#rodape a:visited {
+	text-decoration: none;
+	color: #000000;
+	font-family: sans-serif;
+}
+
+div#conteudo {
+	background-color: #f2f2f2;
+	width: 835px;
+	position: static;
+	float: right;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+/* Estilo aplicado aos formulários em geral */
+form fieldset {
+	border: 2px solid #000;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+form legend {
+	font-family: sans-serif;
+	font-weight: normal;
+	color: #000;
+	border: 1px solid #000;
+}
+
+form label {
+	display: block;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+form button {
+	width: auto;
+	margin-top: 10px;
+}
+
+form div#botoes {
+	display: block;
+}
+
+/* Estilo aplicado ao formulário 'login' */
+form#login {
+	width: 320px;
+	font-family: sans-serif;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+form#login input {
+	width: 260px;
+}
+
+form#login input#entrar {
+	width: auto;
+	margin-top: 10px;
+}
+
+/* Estilo aplicado ao formulário 'contato' */
+form#contato {
+	width: 380px;
+}
+
+form#contato input {
+	width: 220px;
+}
+
+/* Estilo aplicado ao formulário 'roteiro' */
+form#roteiro {
+	width: 550px;
+	font-family: sans-serif;
+}
+
+form#roteiro div {
+	float: left;
+}
+
+form#roteiro label {
+	display: block;
+}
+
+form#roteiro input {
+	display: block;
+	width: 320px;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+form#roteiro textarea {
+	display: block;
+	height: 90px;
+	width: 320px;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+form#roteiro button {
+	clear: both;
+	display: block;
+}
+/* Estilo aplicado ao formulário 'usuario' */
+form#usuario {
+	width: 600px;
+	font-family: sans-serif;
+}
+
+form#usuario fieldset#secao1,fieldset#secao2,fieldset#secao3 {
+	border: 1px solid #8080c0;
+	margin-top: 5px;
+}
+
+form#usuario legend#secao1,legend#secao2,legend#secao3 {
+	border: none;
+}
+
+form#usuario fieldset#secao1 input#local{
+	width: 350px;
+}
+
+form#usuario fieldset#secao1 input#uf{
+	width: 30px;
+}
+
+
+fieldset#upload{
+	width: 300px;
+}
+
+form#usuario div {
+	float: left;
+}
+
+form#usuario label {
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+form#usuario p label {
+	display: inline;
+	margin-right: 15px;
+}
+
+form#usuario input {
+	margin-top: 10px;
+	display: block;
+}
+
+form#usuario input#nome {
+	display: inline;
+	margin-top: 10px;
+	width: 350px;
+}
+
+form#usuario input#endereco {
+	width: 260px;
+}
+
+form#usuario input#ddd {
+	width: 30px;
+}
+
+form#usuario input#numero {
+	width: 120px;
+}
+
+form#usuario input#dataNascimento {
+	width: 90px;
+}
+
+form#usuario select {
+	display: block;
+	margin-top: 10px;
+}
+
+form#usuario p select {
+	display: inline;
+	margin-top: 0px;
+}
+
+form#usuario p input {
+	display: inline;
+	margin-top: 0px;
+}
+
+/* Estilo aplicado às imagens */
+img {
+	border: 0;
+}
+
+/* Estilo aplicado aos cabeçalhos */
+h1 {
+	font-family: sans-serif;
+}
