@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.serraimovel.bo.domino.CategoriaDeImovel;
-import com.serraimovel.bo.domino.SituacaoDeImovel;
-import com.serraimovel.bo.domino.TipoDeImovel;
+import com.serraimovel.bo.dominio.CategoriaDeImovel;
+import com.serraimovel.bo.dominio.SituacaoDeImovel;
+import com.serraimovel.bo.dominio.TipoDeImovel;
 import com.serraimovel.dto.Imovel;
 import com.serraimovel.excecao.SerraImovelException;
 

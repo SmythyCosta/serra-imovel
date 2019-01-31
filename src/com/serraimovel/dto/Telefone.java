@@ -1,6 +1,6 @@
 package com.serraimovel.dto;
 
-import com.serraimovel.bo.domino.TipoDeTelefone;
+import com.serraimovel.bo.dominio.TipoDeTelefone;
 
 public class Telefone {
 	

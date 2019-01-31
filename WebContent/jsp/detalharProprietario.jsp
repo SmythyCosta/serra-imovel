@@ -1,9 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
-<%@ page import="com.serraimovel.bo.domino.TipoDeSexo"%>
-<%@ page import="com.serraimovel.bo.domino.TipoDeEmail"%>
-<%@ page import="com.serraimovel.bo.domino.TipoDeTelefone"%>
+<%@ page import="com.serraimovel.bo.dominio.TipoDeSexo"%>
+<%@ page import="com.serraimovel.bo.dominio.TipoDeEmail"%>
+<%@ page import="com.serraimovel.bo.dominio.TipoDeTelefone"%>
 
 <jsp:include page="../inc/cabecalho.jsp" />
 <jsp:include page="../inc/barraLateral.jsp" />

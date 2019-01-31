@@ -1,4 +1,4 @@
-package com.serraimovel.bo.domino;
+package com.serraimovel.bo.dominio;
 
 import java.util.HashMap;
 import java.util.Map;

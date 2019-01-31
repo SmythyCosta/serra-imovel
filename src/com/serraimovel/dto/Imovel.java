@@ -2,9 +2,9 @@ package com.serraimovel.dto;
 
 import java.math.BigDecimal;
 
-import com.serraimovel.bo.domino.CategoriaDeImovel;
-import com.serraimovel.bo.domino.SituacaoDeImovel;
-import com.serraimovel.bo.domino.TipoDeImovel;
+import com.serraimovel.bo.dominio.CategoriaDeImovel;
+import com.serraimovel.bo.dominio.SituacaoDeImovel;
+import com.serraimovel.bo.dominio.TipoDeImovel;
 
 public class Imovel extends ObjetoDoDominio {
 	

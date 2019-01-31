@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.serraimovel.bo.domino.TipoDeEmail;
-import com.serraimovel.bo.domino.TipoDeSexo;
-import com.serraimovel.bo.domino.TipoDeTelefone;
+import com.serraimovel.bo.dominio.TipoDeEmail;
+import com.serraimovel.bo.dominio.TipoDeSexo;
+import com.serraimovel.bo.dominio.TipoDeTelefone;
 import com.serraimovel.dto.Credencial;
 import com.serraimovel.dto.Email;
 import com.serraimovel.dto.PessoaFisica;

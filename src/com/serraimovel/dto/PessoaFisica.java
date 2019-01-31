@@ -2,7 +2,7 @@ package com.serraimovel.dto;
 
 import java.util.Date;
 
-import com.serraimovel.bo.domino.TipoDeSexo;
+import com.serraimovel.bo.dominio.TipoDeSexo;
 
 
 public class PessoaFisica extends Pessoa {

@@ -1,6 +1,6 @@
 package com.serraimovel.dto;
 
-import com.serraimovel.bo.domino.TipoDeEmail;
+import com.serraimovel.bo.dominio.TipoDeEmail;
 
 public class Email {
 	
