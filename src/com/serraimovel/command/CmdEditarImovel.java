@@ -4,6 +4,8 @@ import java.io.IOException;
 
 import javax.servlet.ServletException;
 
+import com.serraimovel.bo.ImovelBO;
+import com.serraimovel.bo.ProprietarioBO;
 import com.serraimovel.dto.Imovel;
 import com.serraimovel.excecao.SerraImovelException;
 

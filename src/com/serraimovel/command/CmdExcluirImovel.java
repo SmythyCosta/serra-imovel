@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import javax.servlet.ServletException;
 
+import com.serraimovel.bo.ImovelBO;
 import com.serraimovel.excecao.SerraImovelException;
 
 
